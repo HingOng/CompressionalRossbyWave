@@ -1,5 +1,5 @@
 # CompressionalRossbyWave
-This module contains a subroutine generating analytical solutions for the compressional Rossby waves.
+The f90 file is a module contains a subroutine generating analytical solutions for the compressional Rossby waves.
 
 The default test uses the following special treatments:
 1. Generalized equatorial f-plane, where the traditional and nontraditional Coriolis parameters are 0 and 2*omega.
@@ -7,3 +7,5 @@ The default test uses the following special treatments:
 3. Barotropic ideal gas, where the Poisson constant (rd/cp) and heat capacity ratio (cp/cv) are 0 and 1.
 
 If width = 2.d6 m, and depth = 12500 m (anelastic) or 12721 m (fully compressible), the wave period will be 86400 s.
+
+The pdf file depicts the analytical solutions (black contours) and numerical solutions using an upgraded MPAS atmospheric dynamical core (green contours).
